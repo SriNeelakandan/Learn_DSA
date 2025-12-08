@@ -21,3 +21,11 @@ for i in range(q):
 # Time Complexity: O(N)(precomputing) + O(N)(fetching) = O(2N)= O(N)
 
 # Space Complexity: O(N)
+
+# Dictionary in python
+# Insert → O(1) (average,best)
+
+# Fetch → O(1) (average,best)
+
+# Worst case → O(n) (but practically never happens) - Collision
+

@@ -1,7 +1,2 @@
-sriNeelakandanNS
-5
-s
-N
-Z
-e
-n
+6
+10 5 10 15 10 5
