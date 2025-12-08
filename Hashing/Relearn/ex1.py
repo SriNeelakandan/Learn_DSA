@@ -22,3 +22,6 @@ for i in range(n):
 for i in range(q):
     x=int(input())
     print(HashArray[x])
+
+# Time Complexity: O(N) * O(1) = O(N)
+# Space Complexity: O(Max-element-array)
