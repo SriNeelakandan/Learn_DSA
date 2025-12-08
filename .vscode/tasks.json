@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python with IO Redirect",
+            "type": "shell",
+            "command": "python ${file}",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "args": [
+                "<",
+                "input.txt",
+                ">",
+                "output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

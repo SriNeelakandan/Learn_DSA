@@ -1,0 +1,55 @@
+Time complexity:
+
+When it will come?
+
+- Consider me I am writing a code and for judging that code, time complexity and space complexity came into it
+- I am being judged by analyzing time and space complexity of my code.
+
+
+- Time complexity != Time taken by the code to run 
+
+why?
+Lets consider there are two systems
+old windows 
+new macbook 
+
+when I run my code in both of this, my time taken will be
+old windows - 2 seconds
+new macbook - 1 seconds {due to latest technological configruations}
+
+So,In this case, 
+The time complexity of any code depends on the configruations of the system where it is being ran.
+
+Hence, Time complexity != Time taken by the code
+
+Then What is time complexity?
+ - The rate at which time taken increases with respect to the input size rather
+
+Consider two systems:
+old windows 
+new macbook
+
+In old windows,
+consider input size(x axis) and time taken (y axis) - graph
+
+at input 10,time taken - 2 seconds
+at input 20,time taken - 4 seconds
+at input 30,time taken - 6 seconds
+
+connecting those dots,we got a slope and angle between x axis and slope line is theta (rate of increase)
+
+
+In new macbook,
+consider input size(x axis) and time taken (y axis) - graph
+
+at input 10,time taken - 1 seconds
+at input 20,time taken - 2 seconds
+at input 30,time taken - 3 seconds
+
+connecting those dots,we got a slope and angle between x axis and slope line is theta (rate of increase)
+
+So the rate at which time taken increases  -is called time complexity.
+
+Time complexity is measured in :
+- Big O notation
+O(timetaken)
