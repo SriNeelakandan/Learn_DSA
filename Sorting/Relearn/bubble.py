@@ -14,16 +14,17 @@
 
 # Recursion:
 
-# def bubble_sort(i,j,n,arr):
-#     if i<=1:
-#         print(arr)
-#         return
-#     if j==i:
-#         bubble_sort(i-1,0,n,arr)
-#     if arr[j]>arr[i]:
-#         arr[i],arr[j]=arr[j],arr[i]
-#     bubble_sort(i,j+1,n,arr)
+def bubble_sort(i,j,n,arr):
+    if i<=1:
+        print(arr)
+        return
+    if j==i:
+        print(arr)
+        bubble_sort(i-1,0,n,arr)
+    if arr[j]>arr[i]:
+        arr[i],arr[j]=arr[j],arr[i]
+    bubble_sort(i,j+1,n,arr)
 
-# arr=list(map(int,input().split()))
-# n=len(arr)
-# print(bubble_sort(n-1,0,n,arr))
+arr=list(map(int,input().split()))
+n=len(arr)
+print(bubble_sort(n-1,0,n,arr))
