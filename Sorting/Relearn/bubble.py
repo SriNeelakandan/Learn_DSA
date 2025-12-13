@@ -5,9 +5,9 @@
 
 
 def bubble_sort(x,n):
-    for i in range(n-1,-1,-1):
+    for i in range(n):
         didwap= False
-        for j in range(i):
+        for j in range(n-i-1):
             if x[j]>x[j+1]:
                 #swap(x[i],x[i+1])
                 didwap = True
@@ -15,7 +15,7 @@ def bubble_sort(x,n):
         if didwap == False:
             print(f"breaked at {i}- {j}")
             break
-        print("runs")
+        print(x)
 
     return x
 x=list(map(int,input().split()))
